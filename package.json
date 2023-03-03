@@ -25,7 +25,7 @@
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://AlinaMytsa.github.io/hw_todo-list",
+  "homepage": "https://alinamytsa.github.io/hw_todo-list",
   "eslintConfig": {
     "extends": [
       "react-app",
