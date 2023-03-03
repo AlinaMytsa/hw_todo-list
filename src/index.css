@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.col-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.taskWrapper {
+  background-color: #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 14px 1px rgb(0 0 0 / 20%);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.taskHeading {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.taskDescription {
+  font-size: 16px;
+}
+hr:not([size]) {
+  height: 1px;
+}
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: .25;
+}
+.completed {
+  display: block;
+  cursor: pointer;
+  user-select: none;
+}
+.form-check .form-check-input {
+  float: left;
+  margin-left: -1.5em;
+}
+
